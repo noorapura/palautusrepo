@@ -4,7 +4,7 @@ from player_reader import PlayerReader
 
 class StatisticsService:
     def __init__(self, playerReader):
-       self. reader = PlayerReader()
+       self.reader = playerReader
 
        self._players = self.reader.get_players()
 
